@@ -72,8 +72,10 @@ function parseEmailsWithGemini() {
         Logger.log(`    Extracted Data: ${JSON.stringify(extractedData, null, 2)}`);
 
         // --- Hit the BeenVerified Scraper API ---
-        const beenVerifiedResponse = fetchBeenVerifiedOwnerInfo(extractedData);
-        const allPropertyInfo = { ...extractedData, ...beenVerifiedResponse };
+        // TODO: Uncomment this when the API is ready
+        // const beenVerifiedResponse = fetchBeenVerifiedOwnerInfo(extractedData);
+        // const allPropertyInfo = { ...extractedData, ...beenVerifiedResponse };
+        const allPropertyInfo = extractedData;
 
         // --- Log Data to a Google Sheet ---
         if (LOG_TO_SHEET && SPREADSHEET_ID) {

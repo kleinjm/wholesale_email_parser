@@ -79,7 +79,6 @@ function logDataToSheet(date, sender, subject, allPropertyInfo) {
       allPropertyInfo?.providedARV,
       allPropertyInfo?.sourceURL,
       allPropertyInfo?.notes,
-      allPropertyInfo?.ownerName,
     ]);
 
   } catch (e) {
