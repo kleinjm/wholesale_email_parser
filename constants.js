@@ -62,4 +62,4 @@ Only output the JSON.
 // --- End Gemini Configuration ---
 
 // --- BeenVerified Configuration ---
-const BEENVERIFIED_SCRAPER_URL = 'https://us-central1-gen-lang-client-0639051470.cloudfunctions.net/beenverified_scraper'
+const BEENVERIFIED_SCRAPER_URL = 'https://beenverified-scraper-service-495084982552.us-central1.run.app'
